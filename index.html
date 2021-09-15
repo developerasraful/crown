@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Developer Asraful</title>
+  <link rel="shortcut icon" href="./img/249-2496182_web-design-development-web-developer-logo-png.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="bg-light py-2 header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/lo-go.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active text-capitalize" aria-current="page" href="#">about</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active text-capitalize" aria-current="page" href="#">contant</a>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      view all page
+                    </a>
+                    <ul class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">product</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link active text-capitalize" aria-current="page" href="#">blog </a>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      product
+                    </a>
+                    <ul class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">product</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a>
+
+                      </li>
+                    </ul>
+                  </li>
+
+                </ul>
+
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  class="btn text-capitalize sine">sign up / login
+                  in</button>
+
+              </div>
+            </div>
+          </nav>
+
+          <!-- login form  -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"><img class="w-25"
+                      src="./img/249-2496182_web-design-development-web-developer-logo-png.png" alt=""><span
+                      class="ms-3 ">sine in</span></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                  <!-- form part  -->
+
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">
+                        pls email</div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary text-capitalize" data-bs-toggle="modal"
+                    data-bs-target="#signup">sign-up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- sine up part  -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">sign up</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                  <!-- form part  -->
+
+                  <form class="row g-3">
+                    <div class="col-md-4">
+                      <label for="validationDefault01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationDefault01" value=" first name" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationDefault02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationDefault02" value="user name" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationDefaultUsername" class="form-label">last name</label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" class="form-control" id="validationDefaultUsername"
+                          aria-describedby="inputGroupPrepend2" required>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="validationDefault07" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="validationDefault07" aria-describedby="emailHelp">
+                      <div id="validationDefault07" class="form-text">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="validationDefault06" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="validationDefault06">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="validationDefault03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationDefault03" required>
+                    </div>
+
+                    <div class="col-md-3">
+                      <label for="validationDefault04" class="form-label">State</label>
+                      <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">Chooss...</option>
+                        <option>dhaka</option>
+                        <option>manikgonj</option>
+                        <option></option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationDefault05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationDefault05" required>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary text-capitalize">sign-up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+
+
+
+  <!-- banner section part 2  -->
+
+
+
+
+  <section class="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active ani">
+                <img src="./img/slider-01.jpg" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block text-ani">
+                  <h1>Sunny Days And Stzzling ooks
+                    Are Here Again</h1>
+                  <p>
+                    Li Europan lingues es membres del sanufaiteonsepaat
+                    existentie es</p>
+                  <div class="button">
+                    <a href="#">learn more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item ani">
+                <img src="./img/slider-02.jpg" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block text-ani">
+                  <h1>Sunny Days And Stzzling ooks
+                    Are Here Again</h1>
+                  <p>
+                    Li Europan lingues es membres del sanufaiteonsepaat
+                    existentie es</p>
+                  <div class="button">
+                    <a href="#">learn more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item ani">
+                <img src="./img/slider-03.jpg" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block text-ani">
+                  <h1>Sunny Days And Stzzling ooks
+                    Are Here Again</h1>
+                  <p>
+                    Li Europan lingues es membres del sanufaiteonsepaat
+                    existentie es</p>
+                  <div class="button">
+                    <a href="#">learn more</a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Collections part 2  -->
+
+
+
+  <section class="Collections">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="cll text-center text-white">
+            <h6>TRENDING NOW</h6>
+            <h2 class="pt-3 pb-3">New Summer <br> Collections</h2>
+            <p class="fs-3"><i>Go with the flow this seasons</i></p>
+
+            <div class="button">
+              <a href="#">learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-01-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/sp-07-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-12-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/sp-04-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- collection 2nd part  -->
+
+
+
+
+  <section class="Collections">
+    <div class="container-fluid">
+      <div class="row">
+
+
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-13-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/sp-14-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-15-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/sp-16-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6">
+          <div class="coll text-center text-white">
+            <h6>TRENDING NOW</h6>
+            <h2 class="pt-3 pb-3">New Summer <br> Collections</h2>
+            <p class="fs-3"><i>Go with the flow this seasons</i></p>
+
+            <div class="button">
+              <a href="#">learn more</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- collection part 3  -->
+
+
+
+  <section class="Collections">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="col text-center text-white">
+            <h6>TRENDING NOW</h6>
+            <h2 class="pt-3 pb-3">New Summer <br> Collections</h2>
+            <p class="fs-3"><i>Go with the flow this seasons</i></p>
+
+            <div class="button">
+              <a href="#">learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-03-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box mt-3">
+            <img src="./img/sp-08-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-01-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/sp-15-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- .last contant part  -->
+
+
+
+  
+
+  <section class="Collections">
+    <div class="container-fluid">
+      <div class="row">
+
+
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-12-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <img  src="./img/sp-14-450x450(2).jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3  g-0">
+          <div class="box">
+            <img src="./img/sp-16-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/sp-15-450x450.jpg" alt="">
+            <div class="box-content">
+              <div class="content">
+                <ul class="social">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                </ul>
+                <h3 class="title">Mack up</h3>
+                <span class="post">Lorem, ipsum dolor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6">
+          <div class="c text-center text-white">
+            <h6>TRENDING NOW</h6>
+            <h2 class="pt-3 pb-3">New Summer <br> Collections</h2>
+            <p class="fs-3"><i>Go with the flow this seasons</i></p>
+
+            <div class="button">
+              <a href="#">learn more</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer>
+    <div class="container-fluid pb-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="futter">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
